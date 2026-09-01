@@ -76,6 +76,8 @@ export {
 } from "./utils/itk_transform_to_ngff_transform.ts";
 export { ngffTransformToItkTransform } from "./utils/ngff_transform_to_itk_transform.ts";
 export {
+  convertFieldBlock,
+  type ConvertFieldBlockOptions,
   type FieldFrames,
   type ItkDisplacementFieldOptions,
   itkDisplacementFieldToNgffTransform,
