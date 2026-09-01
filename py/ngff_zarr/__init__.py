@@ -20,6 +20,7 @@ from .compute_omero import (
 from .config import config
 from .detect_cli_io_backend import ConversionBackend, detect_cli_io_backend
 from .displacement_field_transform import (
+    convert_field_block,
     itk_displacement_field_to_ngff_transform,
     ngff_displacement_field_to_itk_transform,
 )
@@ -151,6 +152,7 @@ __all__ = [
     "itk_transform_to_ngff_transform",
     "itk_displacement_field_to_ngff_transform",
     "ngff_displacement_field_to_itk_transform",
+    "convert_field_block",
     # Out-of-core resampling
     "resample",
     "resample_bounding_box",
